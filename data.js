@@ -59,7 +59,7 @@ function validateBattlefield(field) {
         counterThree++;
       }
       /*######################
-        #2x1 horizontal ships#
+        #3x1 horizontal ships#
         ######################*/
       if(field[y][x] ===1 && field[y][x+1] ===1  && field[y][x+2] ===1 && field[y][x+3] !==1 && field[y][x-1] !==1 && field[y-1][x] !==1 && field[y-1][x+1] !==1  && field[y-1][x+2] !==1 && field[y-1][x+3] !==1 && field[y-1][x-1] !==1 && field[y+1][x] !==1 && field[y+1][x+1] !==1  && field[y+1][x+2] !==1 && field[y+1][x+3] !==1 && field[y+1][x-1] !==1 )
       {
@@ -73,7 +73,7 @@ function validateBattlefield(field) {
         counterFour++;
       }
       /*######################
-        #2x1 horizontal ships#
+        #4x1 horizontal ships#
         ######################*/
       if(field[y][x] === 1 && field[y][x+1] === 1&& field[y][x+2]===1&& field[y][x+3]===1 && field[y][x+4]!==1 && field[y][x-1] !==1 && field[y-1][x] !== 1 && field[y-1][x+1] !== 1&& field[y-1][x+2]!==1&& field[y-1][x+3] !==1 && field[y-1][x+4]!==1 && field[y-1][x-1] !==1 && field[y+1][x] !== 1 && field[y+1][x+1] !== 1&& field[y+1][x+2]!==1&& field[y+1][x+3] !==1 && field[y+1][x+4]!==1 && field[y+1][x-1] !==1)
       {
